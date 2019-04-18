@@ -1,0 +1,33 @@
+.left-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.right-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.weather.snowflake i {
+  color: blue;
+}
+
+.weather.sun i {
+  color: red;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.snowflake {
+  background-color: aliceblue;
+}
+
+.sun {
+  background-color: orange;
+}
